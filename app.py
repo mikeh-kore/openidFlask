@@ -96,7 +96,7 @@ def index():
         )
     else:
         ip_addr = request.remote_addr
-        return '<h2>{}</h2><p>{}</p><a class="button" href="/login">WS1 Login</a><br><p>{}</p>'.format(
+        return '<h2>{}</h2><p>{}</p><a class="button" href="/login">WS1 Login</a><br><p>Client IP Address: {}</p>'.format(
             APP_TITLE, APP_DESCRIPTION, ip_addr
         )
 
