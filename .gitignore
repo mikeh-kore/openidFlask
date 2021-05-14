@@ -1,1 +1,3 @@
 /config.ini
+/sqlite_db
+/__pycache__/*
